@@ -14,8 +14,6 @@ sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '.'))
 
 from melfilterbanks import MelFilterbanks
 
-import heareval.embeddings.runner
-
 # Default hop_size in milliseconds
 TIMESTAMP_HOP_SIZE = 50
 SCENE_HOP_SIZE = 250
