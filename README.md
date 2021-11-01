@@ -34,14 +34,14 @@ pip3 install -e .
 
 ### Setup pretrained_model
 
-You may also download them from drive: [hear_nt_pretrained](https://drive.google.com/file/d/1Lo7xx7wW_tTpxagK6R9rIMVAbSG4G--P/view?usp=sharing)
+You may also download them from drive: [hear_nt_pretrained](https://drive.google.com/file/d/1Lo7xx7wW_tTpxagK6R9rIMVAbSG4G--P/view)
 
 
 ### Model
 
 |   Model Name    | Sampling Rate | Embedding Size |  Location  |
 | --------------- | ------------- | -------------- |  --------  |
-|     HEAR_NT     |    22050      |      4096     |  [hear_nt_pretrained](https://drive.google.com/file/d/1Lo7xx7wW_tTpxagK6R9rIMVAbSG4G--P/view?usp=sharing) |
+|     HEAR_NT     |    22050      |      4096     |  [hear_nt_pretrained](https://drive.google.com/file/d/1Lo7xx7wW_tTpxagK6R9rIMVAbSG4G--P/view) |
 
 
 **reference**
