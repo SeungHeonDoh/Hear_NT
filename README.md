@@ -15,8 +15,6 @@ This development environment is configured according to the Docker below.
 
 ==================================================================
 
-Important module
-------------------------------------------------------------------
 - python : 3.7 (apt)
 - baseline docker : nvidia/cuda:11.2.0-cudnn8-devel-ubuntu18.04
 
