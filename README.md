@@ -27,6 +27,8 @@ This development environment is configured according to the Docker below.
 pip3 install git+https://github.com/SeungHeonDoh/Hear_NT.git
 ```
 
+or
+
 ```
 git clone https://github.com/SeungHeonDoh/Hear_NT.git
 cd Hear_NT

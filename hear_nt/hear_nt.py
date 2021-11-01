@@ -23,7 +23,7 @@ SCENE_HOP_SIZE = 250
 # Number of frames to batch process for timestamp embeddings
 BATCH_SIZE = 2048
 
-class MacModel(tf.Module):
+class HEARNT(tf.Module):
     sample_rate = 22050
     embedding_size = 4096
     scene_embedding_size = embedding_size
@@ -170,7 +170,7 @@ class MacModel(tf.Module):
         return embedding_feature
 
 def load_model(model_file_path: str = "") -> tf.Module:
-    model = MacModel(model_file_path)
+    model = HEARNT(model_file_path)
     return model
 
 def get_timestamp_embeddings(
@@ -182,9 +182,9 @@ def get_timestamp_embeddings(
         raise ValueError(
             "audio input tensor must be 2D with shape (n_sounds, num_samples)"
         )
-    if not isinstance(model, MacModel):
+    if not isinstance(model, HEARNT):
         raise ValueError(
-            f"Model must be an instance of MacModel"
+            f"Model must be an instance of HEARNT"
         )
 
     frames, timestamps = frame_audio(
